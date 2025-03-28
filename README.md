@@ -1,6 +1,6 @@
 # sei5-projetos
 
-Este repositório a infraestrutura do SEI (Sistema Eletrônico de Informações) empacotada em containers Docker com suporte para os bancos Oracle e PostgreSql
+Este repositório contem a infraestrutura do SEI (Sistema Eletrônico de Informações) empacotada em containers Docker com suporte para os bancos Oracle e PostgreSql
 
 ```mermaid
 graph TD;
