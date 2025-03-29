@@ -2,10 +2,7 @@
 
 Este repositório contém a infraestrutura do **SEI (Sistema Eletrônico de Informações)** empacotada em **containers Docker** com suporte para os bancos **Oracle** e **PostgreSQL**.
 
-## 📌 Visão Geral
-O SEI é um sistema de gestão de processos eletrônicos utilizado por diversas instituições para digitalização e automação de fluxos de trabalho. Este projeto fornece uma infraestrutura Dockerizada para facilitar sua implantação e manutenção.
-
-## 📦 Arquitetura dos Serviços
+## Arquitetura dos Serviços
 
 ```mermaid
 graph TD;
