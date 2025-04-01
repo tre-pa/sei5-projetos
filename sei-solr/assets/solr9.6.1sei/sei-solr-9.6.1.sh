@@ -41,6 +41,8 @@ mkdir -v /dados/sei-protocolos/conteudo
 mkdir -v /dados/sei-bases-conhecimento/conteudo
 mkdir -v /dados/sei-publicacoes/conteudo
 
+cp -f /tmp/security.json /opt/solr/server/solr/security.json
+
 chown -R solr.solr /dados
 chown -R solr.solr /opt/solr/
 
