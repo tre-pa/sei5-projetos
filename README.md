@@ -4,20 +4,8 @@ Este repositório contém a infraestrutura do **SEI (Sistema Eletrônico de Info
 
 ## Arquitetura dos Serviços
 
-```mermaid
-graph TD;
-    PHP[SEI-APP] -->|Consulta/Indexação| Solr[Apache Solr]
-    PHP -->|Cache| Memcached[Memcached]
-    PHP -->|Conversão de documentos| JOD[JODConverter]
-    PHP -->|Leitura/Escrita| DB[(Banco de Dados)]
-    
-    subgraph Serviços
-        Solr
-        Memcached
-        JOD
-        DB
-    end
-```
+![sei drawio](https://github.com/user-attachments/assets/9c599dd9-eb11-4559-8960-95565023a99e)
+
 
 ## Componentes
 
